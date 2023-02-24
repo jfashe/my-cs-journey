@@ -47,7 +47,7 @@ body {
 .nav .title {
   display: block;
   margin-right: auto;
-  margin-left: auto;
+  /* margin-left: auto; */
   color:#222;
 }
 
@@ -63,4 +63,96 @@ ul {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
+}
+
+/* header {
+  min-height: 470px;
+} */
+
+header {
+  line-height: 1.5;
+}
+
+header {
+  text-align: center;
+  background: url('images/leviski.jpg') no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+header {
+  display: block;
+}
+
+body main {
+  text-align: left;
+  margin:20px;
+}
+
+.center {
+  text-align: center;
+}
+
+.topspace {
+  margin-top: 250px;
+}
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+}
+
+footer .copyright {
+  top: -8px;
+  font-size: .75em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+}
+
+.socials li {
+  border-radius: 0px;
+  display: inline-block;
+  background: none;
+  margin:0px;
+}
+
+.socials li:nth-child(odd) {
+  border-radius: 0px;
+  display: inline-block;
+  background: none;
+  margin: -20px;
+}
+
+a.twitter {
+  background-image: url(img/twitter.svg);
+}
+a.linkedin {
+  background-image: url(img/linkedin.svg);
+}
+a.github {
+  background-image: url(img/github.svg);
+}
+a.social:hover {
+  opacity: 1;
 }
