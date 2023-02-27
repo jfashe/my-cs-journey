@@ -2,11 +2,26 @@ html{
   display: block;
 }
 
-aside {
+aside .popup {
+  background-color: #7e7e7e;
+  border-radius: 20px;
+  padding: 1%;
   display: block;
   width: 20%;
   height: 40%;
-  background-color: #7e7e7e;
+}
+
+.popup img {
+  max-width: 5%;
+  padding-left: 20%;
+}
+
+.popup img:hover {
+  opacity: 50%;
+}
+
+.popup img:active {
+  opacity: 0%;
 }
 
 .main-nav {
