@@ -1,13 +1,22 @@
 * {
   font-family: calibri;
+  color:azure
 }
 
 html{
   display: block;
 }
 
+p {
+  font-size: 18px;
+}
+
+sub {
+  padding: 0 -50px;
+}
+
 aside .popup {
-  background-color: #7e7e7e;
+  background-color: #ce3f3f;
   border-radius: 20px;
   padding: 1%;
   display: block;
@@ -65,7 +74,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #c8d7e7;
+  background: #3b546e;
 }
 
 .nav {
@@ -205,3 +214,62 @@ a.social:hover {
   opacity: 1;
 }
 
+/*  */
+
+.container {
+  background-color: rgb(192, 192, 192);
+  width: 20%;
+  border-radius: 15px;
+}
+
+.skill {
+  background-color: rgb(116, 194, 92);
+  color: white;
+  padding: 1%;
+  text-align: right;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.five {
+  width: 5%;
+}
+.ten {
+  width: 10%;
+}
+.fifteen {
+  width: 15%;
+}
+.twenty {
+  width: 20%;
+}
+.twentfive {
+  width: 25%;
+}
+.thirty {
+  width: 30%;
+}
+.thirtfive {
+  width: 35%;
+}
+.fourty {
+  width: 40%;
+}
+.fourtfive {
+  width: 45%;
+}
+.fifty {
+  width: 50%
+}
+.fiftyfive {
+  width: 55;
+}
+.sixty {
+  width: 60%;
+}
+.sixtyfive {
+  width: 65;
+}
+.seventy {
+  width: 70%;
+}
