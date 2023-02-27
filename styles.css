@@ -1,3 +1,7 @@
+* {
+  font-family: calibri;
+}
+
 html{
   display: block;
 }
@@ -9,6 +13,14 @@ aside .popup {
   display: block;
   width: 20%;
   height: 40%;
+}
+
+aside .popup {
+  transition: 1s;
+}
+
+aside .popup:hover {
+  background-color: #b6b6b6;
 }
 
 .popup img {
@@ -35,6 +47,16 @@ aside .popup {
 
 div {
   display: block;
+}
+
+.popup h1 {
+  margin: 0px;
+  color: beige;
+}
+
+.popup p {
+  margin: 0px;
+  font-weight: bold;
 }
 
 body {
